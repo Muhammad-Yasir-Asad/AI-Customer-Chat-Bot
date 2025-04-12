@@ -1,0 +1,151 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+  }
+  
+  /* Stats Section */
+  .stats-container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .stat-box {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    flex-basis: 30%;
+    min-width: 200px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .stat-box h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .stat-box p {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  /* Charts Section */
+  .charts-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .chart-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    flex-basis: 48%;
+    min-width: 300px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .chart-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .chart-box h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Recent Chats Section */
+  .recent-chats-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  .recent-chats-container h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  
+  .recent-chats-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-chats-container li {
+    font-size: 1.1rem;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    padding: 0.8rem 0;
+  }
+  
+  .recent-chats-container li:last-child {
+    border-bottom: none;
+  }
+  
+  @media (max-width: 768px) {
+    .stats-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .chart-box {
+      flex-basis: 100%;
+    }
+  
+    .stat-box {
+      flex-basis: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-container {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .stat-box {
+      padding: 1.5rem;
+    }
+  
+    .chart-box {
+      padding: 1.5rem;
+    }
+  }
+  
