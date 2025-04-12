@@ -25,8 +25,8 @@ This application leverages **Google Gemini Pro** and other modern APIs to build 
 ## 🧠 AI Features
 
 ### 🈂️ Language Detection
-- Automatically detects the language of the customer message using **Gemini Pro**.
-- Supports **any language**, including regional and low-resource languages.
+- Automatically detects the World any language of the customer message using **Gemini Pro**.
+- Supports **All languages in world**, including regional and low-resource languages.
 
 ### 🔁 Real-time Translation
 - Converts non-English input into **English** for internal processing.
@@ -72,11 +72,10 @@ This application leverages **Google Gemini Pro** and other modern APIs to build 
 ## 💡 Technologies Used
 
 - 🔮 **Google Generative AI (Gemini Pro)**
-- 📤 **google-tts-api**
 - 📧 **Nodemailer**
 - 🛠️ **Node.js & Express.js**
 - 🧪 **MongoDB & Mongoose**
-- 📸 **Image Support with Gemini Vision (Extendable)**
+- 📸 **Image Support with Hugging face model (Extendable)**
 - 🌐 **RESTful API Design**
 
 ---
