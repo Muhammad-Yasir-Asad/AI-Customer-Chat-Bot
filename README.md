@@ -32,6 +32,14 @@ This application leverages **Google Gemini Pro** and other modern APIs to build 
 - Converts non-English input into **English** for internal processing.
 - Translates the AI-generated response **back into the original language**.
 
+### 5. **Real-Time Admin Dashboard**
+The **Admin Dashboard** provides real-time insights into the performance of the customer support system. Admins can view:
+- **Real-time data**: Up-to-date customer interactions and feedback.
+- **Sentiment Analysis**: A chart showing positive, negative, and neutral sentiments of customer queries.
+- **Intent Breakdown**: Visual representation of the most common types of queries (delivery, refund, product info, etc.).
+
+The dashboard uses **charts** and **data visualizations** to help admins track performance, identify trends, and improve the system.
+
 ### 📦 Intent Detection
 - Determines the customer's intent from the query:
   - `delivery`
